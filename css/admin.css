@@ -1,0 +1,419 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0 auto;
+	font-family:"calibri";
+	font-size:15px;
+    overflow: hidden;
+}
+.isi-content table{
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.isi-content th{
+    color: white;    
+    text-align: center;
+    font-weight: normal;
+    background: #B80A60;
+}
+.dis{
+    visibility: hidden;
+}
+
+main{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.content{
+	float:left;
+	height:100%;
+}
+#left-side{
+	width:20%;
+}
+#right-side{
+	width:80%;
+}
+.isi-ls,.isi-rs,.isi-content{
+	width:100%;
+}
+.isi-content{
+    height: 92%;
+    animation: zoom 0.5s ease;
+}
+@keyframes zoom{
+    from{transform: scale(0,0);}
+    to{transform: scale(1,1);}
+}
+#ls-satu,#rs-satu{
+	height:8%;
+	background:white;
+}
+#sub-satu{
+    
+}
+.isi-satu,.isi-dua,.isi-tiga{
+    width: 100%;
+    height: 13%;
+}
+.isi-dua{
+    height: 80%;
+}
+.sub-isi{
+    width: 100%;
+    height: 50%;
+}
+.isi-tiga{
+    height:7%;
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+#ls-dua{
+	height:18%;
+	background:#158972;
+}
+.img-umum{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#ls-tiga{
+	height:74%;
+	/*background-image:linear-gradient(#2367C1,#C01890);*/
+	background:#45b88e;
+}
+#ls-tiga ul{
+	list-style:none;
+}
+#ls-tiga li{
+	line-height:45px;
+	padding-left:10px;
+	color:white;
+	font-family:"century gothic";
+	font-size:15px;
+	background:#45b88e;
+	transition:all 0.3s ease-in-out;
+	width:50%;
+}
+#ls-tiga li:hover{
+	border-left:solid 5px white;
+	background:#158972;
+	width:94.4%;
+	cursor:pointer;
+}
+#ls-satu p{
+	color:white;
+	font-family:"century gothic";
+	font-size:25px;
+	text-transform:uppercase;
+	padding-top:10px;
+	color:black;
+	text-align:center;
+}
+#rs-satu{
+	background:#fff;
+	border-bottom:solid 1px lightgray;
+}
+.isi-ld{
+	height:100%;
+	float:left;
+}
+#ld-satu{
+	width:40%;
+}
+.img-user{
+	width:80%;
+	height:75%;
+	border-radius:50%;
+	margin-top:15px;
+	margin-left:10px;
+}
+#ld-dua{
+	font-size:17px;
+	color:white;
+	font-family:"century gothic";
+}
+.name{
+	font-size:25px;
+}
+#ld-dua p{
+	padding-top:15px;
+}
+.logout{
+	float:right;
+	width:100px;
+	height:40px;
+	border-radius:3px;
+	border:0;
+	margin-right:20px;
+	margin-top:7px;
+	color:white;
+	background:rgba(18,133,168,1.00);
+	transition:all 0.3s ease-in-out;
+}
+.isi-dua{
+    overflow: auto;
+}
+.logout:hover{
+	background:white;
+	border:solid 1px rgba(18,133,168,1.00);
+	cursor:pointer;
+	color:rgba(18,133,168,1.00);;
+}
+#jam{
+	margin-top:10px;
+	font-size:20px;
+}
+.form-tambah{
+    width: 80%;
+    background: rgba(0,0,0,0.5);
+    min-width: 150px;
+    height: 92%;
+    bottom: 0;
+    overflow: auto;
+    position: fixed;
+    z-index: 9999;
+    right: -1100px;
+    transition: all 0.5s ease-in-out;
+}
+.form{
+    width: 90%;
+    height: 93%;
+    background: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#msgfoto{
+    margin-left: 20px;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    float: right;
+    background: transparent;
+    color: white;
+}
+.isi-form{
+    height: 570px;
+    float: left;
+}
+.sub-isi button{
+    height: 30px;
+    border-radius: 2px;
+    width: 100px;
+    margin-top: 5px;
+    border: 0;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.hapus{
+    margin-left: 10px;
+    background: #e32d31;
+}
+.hapus:hover{
+    background: #fff;
+    color: #e32d31;
+    border: solid 1px #e32d31;
+    cursor: pointer;
+}
+.tambah{
+    background: #44913a;
+}
+.tambah:hover{
+    background: white;
+    border: solid 1px green;
+    color: green;
+    cursor: pointer;
+}
+#buku,#penulis,#penerbit{
+    
+}
+.print{
+    background: #558dc6;
+}
+.print:hover{
+    background: #fff;
+    color: #558dc6;
+    border: solid 1px #558dc6;
+    cursor: pointer;
+}
+.isi-form textarea{
+    width: 98.5%;
+    height: 98.4%;
+    border: 0;
+    background: #fcfcfc;
+    font-family: "calibri";
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.isi-satu form{
+    float:right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.isi-satu input,
+.isi-satu select,
+.isi-satu option{
+    border: solid 1px lightgray;
+    
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.isi-satu input{
+    width: 200px;
+}
+.isi-satu select{
+    width: 130px;
+}
+.isi-satu option{
+    border: 0;
+    border-radius: 0;
+}
+.isi-satu input:focus,
+.isi-satu select:focus{
+    box-shadow: 0px 0px 3px 0px blue;
+    border: solid 1px blue;
+}
+.isi-form input,
+.isi-form select{
+    width:80%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border: solid 1px lightgray;
+}
+.isi-form input:focus,
+.isi-form select:focus{
+    box-shadow: 0px 0px 3px 0px cornflowerblue;
+    border: solid 1px cornflowerblue;
+}
+.isi-form select{
+    width: 87%;
+}
+.isi-form option{
+    height: 30px;
+    border: 0;
+}
+#form-satu{
+    overflow:auto;
+    width: 70%;
+}
+#form-dua{
+    width: 30%;
+}
+.form-title{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    font-family: "century gothic";
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: green;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.isi-form button{
+    width: 41%;
+    height: 40px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    margin-right: 10px;
+    transition:  all 0.5s ease-in-out;
+}
+.isi-form button[type="submit"]{
+    margin-left: 20px;
+    background: white;
+    color: green;
+    border: solid 1px green;
+}
+.isi-form button[type="submit"]:hover{
+    background: green;
+    color: white;
+}
+.isi-form button[type="reset"]{
+    background: white;
+    color: maroon;
+    border: solid 1px maroon;
+}
+.isi-form button[type="reset"]:hover{
+    background: maroon;
+    color: white;
+}
+.isi-tiga table{
+    width: auto;
+    height: 70%;
+}
+.isi-tiga td{
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #f8f8f8;
+    font-family: "century gothic";
+    border-bottom: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+    color: #eb534c;
+    font-weight: bold;
+}
+.isi-tiga td:hover,
+.isi-tiga td:hover a{
+    background: #3371b1;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+.isi-tiga a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+.isi-dua button{
+    border-radius: 3px;
+    height: 30px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.read{
+    width: 70px;
+    border: solid 1px #1365a4;
+    color: #1365a4;
+}
+.read:hover{
+    background: #1365a4;
+    color: white;
+    cursor: pointer;
+}
+.del,.ed{
+    width: 60px;
+}
+.del{
+    color: #e32d31;
+    border: solid 1px #e32d31;
+}
+.del:hover{
+    background: #e32d31;
+    color: white;
+    cursor:pointer;
+}
+.ed{
+    border: solid 1px green;
+    color: green;
+}
+.ed:hover{
+    background: green;
+    color: white;
+    cursor:pointer;
+}

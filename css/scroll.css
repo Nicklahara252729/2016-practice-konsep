@@ -1,0 +1,83 @@
+body{
+    overflow: hidden;
+}
+.cart{
+    overflow: auto;
+}
+.content-cart{
+    height: auto;
+    padding-bottom: 10px;
+}
+#cart-satu{
+    height: 50px;
+    box-shadow: 0px 0px 3px 0px lightgray;
+}
+#cart-empat{
+    height: 230px;
+    background: #97d071;
+}
+#cart-empat input[type="text"],
+#cart-empat input[type="email"]{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    border-radius: 3px;
+    border: 0;
+    width: 90%;
+}
+#cart-empat input[type="text"]:focus,
+#cart-empat input[type="email"]:focus,
+#cart-empat textarea:focus{
+    box-shadow: 0px 0px 4px 0px blue;
+}
+#ce-dua td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#cart-empat table{
+    width: 100%;
+}
+#cart-empat textarea{
+    width: 90%;
+    border: 0;
+    font-size: 13px;
+    padding-top: 10px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "calibri";
+}
+#cart-dua{
+    height: 400px;
+}
+.content-cart{
+    margin-bottom: 20px;
+    width: 80%;
+}
+#cart{
+    margin-right: 20px;
+}
+.cart{
+    display: block;
+}
+.isi-ce{
+    float: left;
+    height: 100%;
+}
+.img-ce{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: solid 5px #fff;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#ce-satu{
+    width: 15%;
+}
+#ce-dua,#ce-tiga{
+    width: 40%;
+}
+#ce-tiga{
+
+}
