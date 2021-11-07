@@ -1,0 +1,18 @@
+@media only screen and  (max-device-width:768px){
+    .content-menu{
+        display: none;
+    }
+    #top-menu{
+        display: block;
+    }
+}
+@media only screen and (min-device-width:0px) and (max-device-width:767px){
+    .content-2-st,
+    .content-2-nd{
+        display: none;
+    }
+    .content-2-rd{
+        display: block;
+    }
+    
+}
